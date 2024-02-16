@@ -10,6 +10,11 @@ class Derp
                 {
                     try
                     {
+                        if (i == 4)
+                        {
+                            Console.WriteLine("Some new code right here!");
+                        }
+
                         if (i == 5)
                         {
                             throw new FileNotFoundException();
